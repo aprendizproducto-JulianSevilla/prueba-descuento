@@ -1,0 +1,18 @@
+{
+  "name": "gestor-usuarios",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Gestor de usuarios con reglas de negocio, repositorio intercambiable y línea de comandos.",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "usuarios": "node src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
